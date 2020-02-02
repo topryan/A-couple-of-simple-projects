@@ -16,3 +16,4 @@ elif unit == 'USD':
 
 else:
     print('很遗憾，我们尚不支持该种货币！')
+    print('我们将尽快补充该种货币！')
