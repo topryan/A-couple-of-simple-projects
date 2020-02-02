@@ -23,6 +23,6 @@ while currency_str_value != 'Q':
         print('很遗憾，我们尚不支持该种货币！')
         print('我们将尽快补充该种货币！')
     print('*************************************************************')
-    currency_str_value = input('请输入带单位的货币金额（如：100CNY或者100USD；退出程序请输入Q）:')
+    currency_str_value = input('\n请输入带单位的货币金额（如：100CNY或者100USD；退出程序请输入Q）:')
 print('程序已退出！')
 
