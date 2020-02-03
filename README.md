@@ -1,11 +1,16 @@
 # A-couple-of-simple-projects
 the simplest project
 
-## project lists
+## Project lists
 currency converter
+pentagram and fractal tree
 
-## information
-### currency converter
+## Information
+### Currency converter
 It contains file curreny_converter.py.
 <br>The program currently only supports conversions between the __CNY__ and the __USD__.<br/>
-The exchange rate is not real-time.
+__TO DO:__ real-time exchange rate
+
+### Pentagram and fractal tree
+It is used to review __TURTLE__ and __RECURSION__.\
+__TO DO:__ change the leaves' color
