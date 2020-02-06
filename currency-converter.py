@@ -5,7 +5,7 @@ def convert_currency(im, er):
 def main():
 
     USD_VS_RMB = 6.92
-    currency_str_value = input('请输入带单位的货币金额（如：100CNY或者100USD;）:')
+    currency_str_value = input('Please enter the currency amount in units (eg: 100CNY or 100USD）:')
     unit = currency_str_value[-3:]
 
     if unit == 'CNY':
@@ -18,9 +18,9 @@ def main():
     if exchange_rate != -1:
         in_money = eval(currency_str_value[:-3])
         out_money = convert_currency(in_money, exchange_rate)
-        print('转换后的金额为：', out_money)
+        print('The converted amount is：', out_money)
     else:
-        print('暂不支持该货币')
+        print('This currency is not supported yet.')
 
 
 if __name__ == '__main__':
